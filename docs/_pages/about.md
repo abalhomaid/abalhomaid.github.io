@@ -11,7 +11,7 @@ I enjoy reading and listening to
 
 * Science, education, nutrition, and health & fitness. Big thanks to [Huberman lab podcast](https://hubermanlab.com/)
 * Human decision making process: organizational and individual behaviour
-* Psychology, mental wellbeing and nonverbal communication.
+* Psychology, personality, mental wellbeing and nonverbal communication.
 * Effects of technology on Human beings
 * Animal behaviour and comparative psychology
 * Investing and stock behaviour
