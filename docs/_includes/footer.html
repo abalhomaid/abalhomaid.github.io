@@ -1,16 +1,42 @@
 <footer class="footer">
 
 	<div class="wrap">
-
+		<div class="grid">
 		<!-- <p class="footer__text">{{ site.data.settings.footer_settings.footer_tagline }}</p> -->
 
-		<div class="footer__copyright">
-			<span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span>
-			<a href="https://jekyllthemes.io" target="_blank"></a>
+
+		<div class="grid-item">
+			<div class="footer__copyright">
+				<!-- <span>© {{ 'now' | date: "%Y" }} {{ site.data.settings.basic_settings.site_title }}</span> -->
+				<span>© {{ 'now' | date: "%Y" }} Abdulaziz Al-Homaid</span>
+				<a href="https://jekyllthemes.io" target="_blank"></a>
+				<p></p>
+			</div>
+		</div>	
+
+		<div class ="grid-item">
+
+			<div class="footer_headline">
+				<p>NAVIGATION</p>
+			</div>
+	
+			<div>
+			{% for item in site.data.settings.menu_settings.menu_items %}
+			<li class="footer__list__item">
+				<a href="{{ item.url | relative_url }}" class="footer__text">{{ item.title }}</a>
+			</li>
+			{% endfor %}
+			</div>
+	
+		</div>
+		
+		<div class="grid-item">
+			{% include socials.html %}
 		</div>
 
-		{% include socials.html %}
+
+		</div>
 
 	</div>
-
+ 
 </footer>

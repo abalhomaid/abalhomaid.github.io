@@ -54,6 +54,11 @@
 	color: $text-light-color;
 }
 
+.footer__headline {
+	color: $text-light-color;
+	font-weight: $bold-weight;
+}
+
 .footer__copyright {
 	display: block;
 	margin-top: 10px;
@@ -82,6 +87,30 @@
 		}
 	}
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+  }
+  
+.grid-item {
+/* Your grid item styles go here */
+}
+
+.footer__list__item {
+
+	@include mq(tabletl) {
+		display: block;
+		margin-left: 0px;
+		padding-bottom: 10px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+}
+
 
 .footer .socials {
 	margin-top: 25px;

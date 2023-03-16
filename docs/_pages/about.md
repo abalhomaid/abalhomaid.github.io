@@ -9,7 +9,7 @@ featured_image: /images/demo/about.jpg
 
 I enjoy reading and listening to
 
-* Science, education, nutrition, and health & fitness. Big thanks to [Huberman lab podcast](https://hubermanlab.com/)
+* Nutrition, health & fitness. Big thanks to [Huberman lab podcast](https://hubermanlab.com/)
 * Human decision making process: organizational and individual behaviour
 * Psychology, personality, mental wellbeing and nonverbal communication.
 * Effects of technology on Human beings
